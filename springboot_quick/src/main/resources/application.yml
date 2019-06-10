@@ -1,0 +1,27 @@
+# 对象的配置
+person:
+  name: zhangsan
+  age: 18
+  addr: bj
+
+# 行内对象配置
+
+student: {name: lisi,age: 15,addr: sh}
+
+# 集合配置
+city:
+  - bj
+  - sh
+  - wh
+
+provinces: [bj,sh,wh]
+
+# 集合中的元素是对象形式
+
+users:
+  - name: zs
+    age: 18
+  - name: ls
+    age: 16
+  - name: ww
+    age: 17
